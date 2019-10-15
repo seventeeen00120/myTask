@@ -3,17 +3,25 @@
     <head>
         <title>MyTask</title>
         <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="./css/page2.css">
-        <script defer src="./javascript/page2.js"></script>
+        <!--<link rel="stylesheet" type="text/css" href="./css/index.css">-->
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+        <script defer src="./javascript/index.js"></script>
+        <script defer src="./javascript/bootstrap.min.js"></script>
      </head>  
-     <body ng-app="myApp">
-        <header>         
-        <div >
-            <a  href="#" id="myTask" class="myTask1" onclick="changHeaderColor()"; >我的任務</a>
-            <a  class="myTask1" onclick="changHeaderColor()" href="#">進行中</a>
-            <a  class="myTask1" onclick="changHeaderColor()" href="#">完成</a>
-        </div>      
-        </header>
+     <body>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" 
+		data-target="#demo">
+	简单的可折叠组件
+</button>
+
+<div id="demo" class="collapse in">
+	Nihil anim keffiyeh helvetica, craft beer labore wes anderson 
+	cred nesciunt sapiente ea proident. Ad vegan excepteur butcher 
+	vice lomo.
+</div>
     
 
     </body>
